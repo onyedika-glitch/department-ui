@@ -1,6 +1,7 @@
+"use client";
 import { useState } from 'react';
 import { Box, TextField, Button, Paper, Typography } from '@mui/material';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import axios from 'axios';
 
 export default function Login() {
